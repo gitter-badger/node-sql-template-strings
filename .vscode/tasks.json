@@ -1,0 +1,30 @@
+{
+  // See https://go.microsoft.com/fwlink/?LinkId=733558
+  // for the documentation about the tasks.json format
+  "version": "0.1.0",
+  "command": "npm",
+  "isShellCommand": true,
+  "showOutput": "never",
+  "args": [
+    "--silent",
+    "run"
+  ],
+  "tasks": [
+    {
+      "taskName": "build",
+      "isBuildCommand": true,
+      "problemMatcher": "$tsc"
+    },
+    {
+      "taskName": "watch",
+      "isWatching": true,
+      "problemMatcher": "$tsc-watch"
+    },
+    {
+      "taskName": "lint"
+    },
+    {
+      "taskName": "typedoc"
+    }
+  ]
+}

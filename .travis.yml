@@ -7,6 +7,14 @@ node_js:
 
 sudo: false
 
+install:
+ - npm install
+ - typings install
+
+script:
+ - npm run lint
+ - npm test
+
 before_deploy:
  - npm run typedoc
 deploy:
