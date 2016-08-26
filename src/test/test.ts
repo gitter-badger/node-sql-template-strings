@@ -1,6 +1,6 @@
 
 import * as assert from 'assert';
-import {SQL} from '..';
+import {SQL} from '../index';
 
 describe('SQL', () => {
 

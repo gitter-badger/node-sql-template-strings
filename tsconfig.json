@@ -7,10 +7,12 @@
     "outDir": "dist",
     "sourceMap": true,
     "inlineSources": true,
-    "declaration": true
+    "declaration": true,
+    "moduleResolution": "node"
   },
   "exclude": [
     "node_modules",
-    "dist"
+    "dist",
+    "typedoc"
   ]
 }
